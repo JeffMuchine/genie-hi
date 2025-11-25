@@ -108,19 +108,19 @@ Update the file after completing each sub-task, not just after completing an ent
 
 ### Phase 2: Frontend Development (Local) - Build UI/UX
 
-- [ ] 14.0 Set up React frontend application structure
-  - [ ] 14.1 Configure global styles (CSS Modules/Styled Components)
-  - [ ] 14.2 Set up API client interceptors (Axios)
-  - [ ] 14.3 Create shared UI components (Button, Card, Modal, Input)
-- [ ] 15.0 Implement visual identity and design system
-  - [ ] 15.1 Define color palette (#6F38C5, #87A2FB, etc.)
-  - [ ] 15.2 Create layout wrapper (Sidebar + Main Content)
-- [ ] 16.0 Implement authentication UI (Google OAuth login)
-  - [ ] 16.1 Create Login page with "Sign in with Google" button
-  - [ ] 16.2 Implement auth state management (Context/Redux)
-- [ ] 17.0 Implement sidebar navigation and routing
-  - [ ] 17.1 Configure `react-router-dom` routes
-  - [ ] 17.2 Build Sidebar component with active state highlighting
+- [x] 14.0 Set up React frontend application structure
+  - [x] 14.1 Configure global styles (CSS Modules/Styled Components)
+  - [x] 14.2 Set up API client interceptors (Axios)
+  - [x] 14.3 Create shared UI components (Button, Card, Modal, Input)
+- [x] 15.0 Implement visual identity and design system
+  - [x] 15.1 Define color palette (#6F38C5, #87A2FB, etc.)
+  - [x] 15.2 Create layout wrapper (Sidebar + Main Content)
+- [x] 16.0 Implement authentication UI (Google OAuth login)
+  - [x] 16.1 Create Login page with "Sign in with Google" button
+  - [x] 16.2 Implement auth state management (Context/Redux)
+- [x] 17.0 Implement sidebar navigation and routing
+  - [x] 17.1 Configure `react-router-dom` routes
+  - [x] 17.2 Build Sidebar component with active state highlighting
 - [ ] 18.0 Implement Progress Tracker component
   - [ ] 18.1 Create visual progress bar (3 steps)
   - [ ] 18.2 Implement step transition logic
