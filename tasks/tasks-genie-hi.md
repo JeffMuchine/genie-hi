@@ -124,35 +124,35 @@ Update the file after completing each sub-task, not just after completing an ent
 - [ ] 18.0 Implement Progress Tracker component
   - [ ] 18.1 Create visual progress bar (3 steps)
   - [ ] 18.2 Implement step transition logic
-- [ ] 19.0 Implement Job Application Flow - Step 1 (Job Input UI)
-  - [ ] 19.1 Build Job Input Bar and "+ Add" button
-  - [ ] 19.2 Build Job List view (Cards with Title/Company)
-  - [ ] 19.3 Implement "Generate" button state logic
-- [ ] 20.0 Implement Resume Upload UI and Insights Display
-  - [ ] 20.1 Build Resume Upload Modal (Drag & Drop)
-  - [ ] 20.2 Build Insights Summary component (Experience + Note)
-- [ ] 21.0 Implement AI Generation Loading Overlay
-  - [ ] 21.1 Create overlay with rotating messages
-  - [ ] 21.2 Implement mock timer/progress for visual feedback
-- [ ] 22.0 Implement Resume Validator UI (Diff Tool)
-  - [ ] 22.1 Build Split View Modal (Original vs Tailored)
-  - [ ] 22.2 Implement Section Accept/Reject buttons
-  - [ ] 22.3 Implement visual diff highlighting
-- [ ] 23.0 Implement Cover Letter Studio UI
-  - [ ] 23.1 Build Editor Layout (Text Area + Controls Sidebar)
-  - [ ] 23.2 Implement Tone/Length/Highlights controls
-  - [ ] 23.3 Implement "Regenerate" and "LGTM" actions
-- [ ] 24.0 Implement Review & Edit Interface
-  - [ ] 24.1 Build Job Card list with "Review" buttons
-  - [ ] 24.2 Implement selection highlighting logic
-- [ ] 25.0 Implement Download & Completion Flow UI
-  - [ ] 25.1 Build Final View with "Download Package" buttons
-  - [ ] 25.2 Implement download action handler
-- [ ] 26.0 Implement Account & Subscription Management UI
-  - [ ] 26.1 Build Account Dashboard (Resume, Plan, Payments)
-  - [ ] 26.2 Implement Upgrade/Cancel UI mocks
-- [ ] 27.0 Implement placeholder features UI (Chat, Scoreboard, Referral)
-  - [ ] 27.1 Create simple placeholder views for secondary tabs
+- [x] 19.0 Implement Job Application Flow - Step 1 (Job Input UI)
+  - [x] 19.1 Build Job Input Bar and "+ Add" button
+  - [x] 19.2 Build Job List view (Cards with Title/Company)
+  - [x] 19.3 Implement "Generate" button state logic
+- [x] 20.0 Implement Resume Upload UI and Insights Display
+  - [x] 20.1 Build Resume Upload Modal (Drag & Drop)
+  - [x] 20.2 Build Insights Summary component (Experience + Note)
+- [x] 21.0 Implement AI Generation Loading Overlay
+  - [x] 21.1 Create overlay with rotating messages
+  - [x] 21.2 Implement mock timer/progress for visual feedback
+- [x] 22.0 Implement Resume Validator UI (Diff Tool)
+  - [x] 22.1 Build Split View Modal (Original vs Tailored)
+  - [x] 22.2 Implement Section Accept/Reject buttons
+  - [x] 22.3 Implement visual diff highlighting
+- [x] 23.0 Implement Cover Letter Studio UI
+  - [x] 23.1 Build Editor Layout (Text Area + Controls Sidebar)
+  - [x] 23.2 Implement Tone/Length/Highlights controls
+  - [x] 23.3 Implement "Regenerate" and "LGTM" actions
+- [x] 24.0 Implement Review & Edit Interface
+  - [x] 24.1 Build Job Card list with "Review" buttons
+  - [x] 24.2 Implement selection highlighting logic
+- [x] 25.0 Implement Download & Completion Flow UI
+  - [x] 25.1 Build Final View with "Download Package" buttons
+  - [x] 25.2 Implement download action handler
+- [x] 26.0 Implement Account & Subscription Management UI
+  - [x] 26.1 Build Account Dashboard (Resume, Plan, Payments)
+  - [x] 26.2 Implement Upgrade/Cancel UI mocks
+- [x] 27.0 Implement placeholder features UI (Chat, Scoreboard, Referral)
+  - [x] 27.1 Create simple placeholder views for secondary tabs
 - [ ] 28.0 **USER REVIEW CHECKPOINT** - Review frontend flow/views
   - [ ] 28.1 Walkthrough of UI without backend connection (mock data)
   - [ ] 28.2 Incorporate user feedback on design/flow

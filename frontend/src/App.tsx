@@ -9,6 +9,11 @@ import { Login } from './pages/Login';
 import { LoginCallback } from './pages/LoginCallback';
 import { AuthProvider } from './features/auth/AuthContext';
 import { ProtectedRoute } from './components/common/ProtectedRoute';
+import { Jobs } from './pages/Jobs';
+import { Resumes } from './pages/Resumes';
+import { ApplicationDetail } from './pages/ApplicationDetail';
+import { Applications } from './pages/Applications';
+import { Account } from './pages/Account';
 
 function App() {
   return (
@@ -23,10 +28,11 @@ function App() {
             <Route element={<ProtectedRoute />}>
               <Route path="/" element={<Layout />}>
                 <Route index element={<Dashboard />} />
-                <Route path="jobs" element={<div><h1>Jobs</h1></div>} />
-                <Route path="applications" element={<div><h1>Applications</h1></div>} />
-                <Route path="resumes" element={<div><h1>Resumes</h1></div>} />
-                <Route path="account" element={<div><h1>Account</h1></div>} />
+                <Route path="jobs" element={<Jobs />} />
+                <Route path="applications" element={<Applications />} />
+                <Route path="applications/:id" element={<ApplicationDetail />} />
+                <Route path="resumes" element={<Resumes />} />
+                <Route path="account" element={<Account />} />
               </Route>
             </Route>
           </Routes>
